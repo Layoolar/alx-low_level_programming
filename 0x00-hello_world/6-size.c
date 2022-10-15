@@ -6,10 +6,10 @@
  */
 int main (void)
 {
-	int a
-	double b
-	char d
-	float c
+	int a;
+	double b;
+	char d;
+	float c;
 	print("Size of an integer: %lu byte(s)\n", (unsigned long)sizeof(a);
 	print("Size of a double: %lu byte(s)\n", (unsigned long)sizeof(b);
 	print("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d);
