@@ -18,7 +18,7 @@ int main(void)
 		printf("%lu is zero\n", n);
 	}
 	else {
-	printf("%lu is negative\n", n)
+	printf("%d is negative\n", n)
 	}
 	return (0);
 }
