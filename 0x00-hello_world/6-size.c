@@ -10,9 +10,9 @@ int main (void)
 	double b;
 	char d;
 	float c;
-	print("Size of an integer: %lu byte(s)\n", (unsigned long)sizeof(a));
-	print("Size of a double: %lu byte(s)\n", (unsigned long)sizeof(b));
-	print("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
-	print("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an integer: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a double: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(c));
 	return (0);
 }
