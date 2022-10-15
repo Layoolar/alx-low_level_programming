@@ -12,12 +12,12 @@ int main(void)
 	
 	while (lower <= 'z')
 	{
-		putchar(lower\n);
+		putchar(lower);
 		lower++;
 	}
 	while (upper <= 'Z')
 	{
-		putchar(upper\n);
+		putchar(upper);
 		upper++;
 	}
 	return (0);
