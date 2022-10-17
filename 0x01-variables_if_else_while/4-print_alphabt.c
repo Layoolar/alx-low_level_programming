@@ -15,10 +15,9 @@ int main(void)
 	{
 	if (lower == 'e')
 	{
-	continue;
-	}
 	putchar(lower);
 	lower++;
+	}
 	}
 	/**
 	while (lower <= 'z')
