@@ -11,34 +11,14 @@ int main(void)
 
 	lower = 'a';
 	
-	while (lower <= 'z')
+	for (char l = 'a'; l <='z'; l++)
 	{
-	if (lower == 'e')
+	if (l != 'e' && l != 'q')
 	{
-	putchar(lower);
-	lower++;
+	putchar(l);
+	l++;
 	}
 	}
-	/**
-	while (lower <= 'z')
-	{
-	if (lower != 'q' && lower != 'e')
-	{
-	putchar(lower);
-	lower++;
-	}
-	
-	 * else if (lower == 'e')
-	{
-	continue;
-	}
-	else
-	{
-		putchar(lower);
-		lower++;
-	}
-	}
-	*/
 	putchar('\n');
 	return (0);
 }
