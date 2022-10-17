@@ -11,8 +11,10 @@ int main(void)
 
 	lower = 'a';
 	
+	while (lower<= 'z')
+	{
 	putchar(lower);
-
+	}
 	/**
 	while (lower <= 'z')
 	{
