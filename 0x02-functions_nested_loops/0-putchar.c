@@ -2,13 +2,14 @@
 #include "main.h"
 /**
  * main - Entry point, posts _putchar
- * Returns 0 on success
+ * Return 0 on success
  */
 
 int main(void)
 
-{ 
+{
 	char *sh = "_putchar";
+
 	while (*sh)
 	{
 		_putchar(*sh);
