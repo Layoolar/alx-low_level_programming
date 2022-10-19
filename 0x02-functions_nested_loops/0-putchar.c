@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <main.h>
 /**
  * main - Entry point, posts _putchar
  * Returns 0 on success
