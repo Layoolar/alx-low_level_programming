@@ -6,7 +6,16 @@
  */
 
 int main(void)
+
 {
-	printf("_putchar\n");
-	return(0);
+	char *sh = "_putchar";
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+	return (0);
 }
+
+
