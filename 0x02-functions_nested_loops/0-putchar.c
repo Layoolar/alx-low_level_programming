@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
+
 /**
- * main - Entry point, posts _putchar
- * Return 0 on success
+ * main - entry point
+ * Description: Prints Holberton with _putchar
+ * Return: always 0
  */
 
 int main(void)
