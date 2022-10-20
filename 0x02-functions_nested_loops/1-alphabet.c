@@ -7,7 +7,7 @@ char i;
 
 for (i = 'a'; i <= 'z'; i++)
 {
-	putchar(c);
+	putchar(i);
 }
 	putchar('\n');
 }
