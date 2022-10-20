@@ -5,7 +5,6 @@
  * Return: 0 or 1
  * @c: input character
  */
-
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
