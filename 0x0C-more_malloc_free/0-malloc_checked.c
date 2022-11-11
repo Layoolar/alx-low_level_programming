@@ -1,18 +1,18 @@
-#include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "holberton.h"
 /**
- * malloc_checked - creates an array of integers.
- * @b: input.
- * Return: Output.
+ * malloc_checked - Entry Point
+ * @b: input amount
+ * Return: pointer to new mem
  */
 void *malloc_checked(unsigned int b)
 {
-	void *g = malloc(b);
+	void *n;
 
-	if (g == NULL)
-	{
+	n = malloc(b);
+
+	if (n == NULL)
 		exit(98);
-	}
-	return (g);
+	return (n);
 }
